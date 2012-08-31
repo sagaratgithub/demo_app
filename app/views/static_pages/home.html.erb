@@ -1,2 +1,9 @@
 <% provide(:title, 'Home') %>
-<h1>Sample App</h1>
+<div class="center hero-unit">
+  <h1> Welcome to Sample App</h1>
+  <h2>
+    This is the home page for the Sample app.
+  </h2>
+  <%= link_to "Sign up now !", signup_path, class: "tb btn-large btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt:"Rails"), 'http://localhost:3000' %>
